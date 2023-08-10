@@ -38,4 +38,8 @@
 
     <!-- Device model (Build.MODEL) to spoof for netflix, if not empty -->
     <java-symbol type="string" name="config_netflixSpoofModel" />
+
+    <!-- Define device configs on boot -->
+    <java-symbol type="array" name="global_device_configs_override" />
+    <java-symbol type="array" name="device_configs_override" />
 </resources>
